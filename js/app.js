@@ -187,6 +187,7 @@ console.log(myArray.reverse())
 
 */
 ////////////////////// F. BIGGIE SMALLS /////////////////////////
+/*
 
 var incInt = 100;
 
@@ -196,4 +197,13 @@ if(incInt < 100){
     console.log("big number")
 }
 
+*/
+////////////////////// G. MONKEY IN THE MIDDLE /////////////////////////
 
+function monkeyInTheMiddle(x){
+    if(x < 5){console.log("little number")}
+    else if(x>10){console.log("big number")}
+    else {console.log("monkey")}
+}
+
+monkeyInTheMiddle(11)
