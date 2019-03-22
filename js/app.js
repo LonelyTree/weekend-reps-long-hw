@@ -55,3 +55,23 @@ function legalToDrive(x){
 }
 
 legalToDrive(personAge);
+
+////////////////////// II. LOOPS /////////////////////////
+
+////////////////////// A. THE BASICS /////////////////////////
+// 1.
+let t=0
+while(t <= 10){
+    console.log(t)
+    t++
+}
+
+// 2.
+for(let i=10; i <= 400; i++){
+    console.log(i);
+}
+
+// 3. 
+for(let i=12; i < 400; i += 3){
+    console.log(i)
+}
