@@ -213,7 +213,11 @@ Given the following array `const randomThings = [1, 10, "Hello", true]`
 
 1. How do you access the 1st element in the array?
 
+A: `randomThings[0]`
+
 2. Change the value of `"Hello"` to `"World"`.
+
+A: `randomThings[2] = "World"`
 
 3. Check the value of the array to make sure it updated the array. How? Why, yes! `console.log()`;
 
