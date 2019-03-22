@@ -19,11 +19,30 @@ fork/clone/etc -- u know what to do
 ### A. Q + A
 
 1. How do we assign a value to a variable?
+
+A: `let v = -or- const v = -or- var v =`
+
 2. How do we change the value of a variable?
+
+A:  `"="`
+
 3. How do we assign an existing variable to a new variable?
+
+A: `v = new v`
+
 4. Remind me, what are `declare`, `assign`, and `define`?
+
+A: `declare:  to declare what a variable's name is.
+    assign: a value to the variable.
+    define: defines the scope of the variable (var, let, or const)`
+    
 5. What is pseudocoding and why should you do it?
+
+A: `Pseudocoding is writing words that are similar to actual code, just to get the logic of the code out.`
+
 6. What percentage of time should be spent thinking about how you're going to solve a problem vs actually typing in code to solve it?
+
+A: `90% Thinking 10% Coding`
 
 :red_circle: Commit.
 
