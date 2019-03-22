@@ -277,6 +277,7 @@ printCool("who ever is reading this")
 
 */
 ////////////////////// C. CALCULATE CUBE /////////////////////////
+/*
 
 function calculateCube(x){
     let answer = Math.pow(x,3);
@@ -284,3 +285,17 @@ function calculateCube(x){
 }
 
 calculateCube(2)
+
+*/
+////////////////////// D. IS VOWEL /////////////////////////
+
+function isVowel(letter){
+    let absletter = letter.toLowerCase()
+    const vowel = ["a","e","i","o","u"]
+    for(let i = 0; i < vowel.length; i++){
+        if(absletter === vowel[i]){
+            return true
+        }
+    } return false
+}
+console.log(isVowel("E"));
