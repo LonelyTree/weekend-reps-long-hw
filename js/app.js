@@ -93,6 +93,7 @@ for(let i = 1; i <= 100; i++){
 
 */
 ////////////////////// C.  GIVE ME FIVE /////////////////////////
+/*
 
 for(let i=0; i<= 100; i++){
     if(i%5===0){
@@ -101,3 +102,21 @@ for(let i=0; i<= 100; i++){
         console.log("I found a " + i +". Three is a crowd.")
     }
 }
+
+*/
+////////////////////// D. SAVINGS ACCOUNT /////////////////////////
+
+let bank_account=0;
+
+
+for(let i = 0; i <=10; i ++){
+bank_account = bank_account + i;
+} 
+console.log("$" + bank_account)
+
+////////// RAISE /////////////
+
+for(let i = 0; i<=100;i++){
+    bank_account= bank_account + (i*2)
+}
+console.log("$"+bank_account)
