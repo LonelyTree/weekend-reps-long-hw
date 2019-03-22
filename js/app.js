@@ -1,3 +1,6 @@
+////////////////////// A. Q+A /////////////////////////
+// ON README.md
+
 ////////////////////// B. STRINGS /////////////////////////
 /*
 var firstVariable = "Hello World";
@@ -142,3 +145,8 @@ console.log(euler)
 
 ////////////////////// A. TALK ABOUT IT /////////////////////////
 
+// ON README.md
+
+////////////////////// B. EASY DOES IT /////////////////////////
+
+var quotes = ["To be, or not to be?", "This is my swamp!", "I think, therefore I am"];
