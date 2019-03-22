@@ -1,5 +1,5 @@
 ////////////////////// B. STRINGS /////////////////////////
-
+/*
 var firstVariable = "Hello World";
 firstVariable = 1;
 var secondVariable = firstVariable;
@@ -9,10 +9,9 @@ var yourName = "Alex Hughes";
 
 var concantate = "Hello, my name is " + yourName;
 console.log(concantate);
-
+*/
 ////////////////////// C. BOOLEANS /////////////////////////
-
-
+/*
 
   const a = 4;
   const b = 53;
@@ -31,7 +30,9 @@ console.log(concantate);
   console.log((a === a) < d);
   console.log(48 == '48');
 
+*/
 ////////////////////// D. THE FARM /////////////////////////
+/*
 
 var animal1 = "cow";
 
@@ -44,7 +45,9 @@ function whatDoesTheCowSay(x){
     }
 }
 
+*/
 ////////////////////// E. DRIVER'S ED /////////////////////////
+/*
 
 var personAge = 16;
 
@@ -56,10 +59,13 @@ function legalToDrive(x){
 
 legalToDrive(personAge);
 
+*/
 ////////////////////// II. LOOPS /////////////////////////
 
 ////////////////////// A. THE BASICS /////////////////////////
-// 1.
+// 1. 
+
+/*
 let t=0
 while(t <= 10){
     console.log(t)
@@ -75,3 +81,12 @@ for(let i=10; i <= 400; i++){
 for(let i=12; i < 400; i += 3){
     console.log(i)
 }
+*/
+////////////////////// B. GET EVEN /////////////////////////
+
+for(let i = 1; i <= 100; i++){
+    if(i%2===0){
+        console.log(i + " <-- is an even number.");
+    };
+}
+
