@@ -267,6 +267,7 @@ console.log(`Hello there, ${x}`)
 
 */
 ////////////////////// B. PRINT COOL /////////////////////////
+/*
 
 function printCool(name){
     console.log(`Hey, ${name}, I think you're pretty cool!`)
@@ -274,3 +275,12 @@ function printCool(name){
 
 printCool("who ever is reading this")
 
+*/
+////////////////////// C. CALCULATE CUBE /////////////////////////
+
+function calculateCube(x){
+    let answer = Math.pow(x,3);
+    console.log(answer)
+}
+
+calculateCube(2)
