@@ -173,6 +173,7 @@ console.log(ourClass)
 
 */
 ////////////////////// E. MIX IT UP /////////////////////////
+/*
 
 const myArray = [5, 10, 500, 20]
 myArray.push("Egon","String");
@@ -183,4 +184,16 @@ myArray.unshift("Bob Marley");
 console.log(myArray);
 myArray.pop();
 console.log(myArray.reverse())
+
+*/
+////////////////////// F. BIGGIE SMALLS /////////////////////////
+
+var incInt = 100;
+
+if(incInt < 100){
+    console.log("little number")
+} else if(incInt >= 100){
+    console.log("big number")
+}
+
 
