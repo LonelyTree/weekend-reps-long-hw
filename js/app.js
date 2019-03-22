@@ -315,7 +315,8 @@ function getTwoLengths(x,y){
 getTwoLengths("Jalapeno","Three")
 
 */
-////////////////////// D. GET MULTIPLE LENGTHS /////////////////////////
+////////////////////// F. GET MULTIPLE LENGTHS /////////////////////////
+/*
 
 function getMultipleLengths(x){
     lengthArray = [];
@@ -327,3 +328,18 @@ function getMultipleLengths(x){
 }
 
 getMultipleLengths("How man word in har?")
+
+*/
+////////////////////// G. MAX OF THREE /////////////////////////
+
+function maxOfThree(x,y,z){
+    if(x === y === z){
+        return x;
+    }
+    truth = Math.max(x,y,z)
+    if(truth === x || truth === y || truth === z){
+        return truth;
+    }
+}
+
+console.log(maxOfThree(6,9,11))
