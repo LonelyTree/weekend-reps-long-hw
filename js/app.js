@@ -44,5 +44,14 @@ function whatDoesTheCowSay(x){
     }
 }
 
+////////////////////// E. DRIVER'S ED /////////////////////////
 
+var personAge = 16;
 
+function legalToDrive(x){
+    if(x < 16){
+        console.log("Sorry, you're too young.")
+    }
+}
+
+legalToDrive(personAge);
