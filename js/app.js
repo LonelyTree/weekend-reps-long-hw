@@ -105,6 +105,7 @@ for(let i=0; i<= 100; i++){
 
 */
 ////////////////////// D. SAVINGS ACCOUNT /////////////////////////
+/*
 
 let bank_account=0;
 
@@ -120,3 +121,17 @@ for(let i = 0; i<=100;i++){
     bank_account= bank_account + (i*2)
 }
 console.log("$"+bank_account)
+
+*/
+////////////////////// E. MULTIPLES OF 3 & 5 /////////////////////////
+
+let euler = 0;
+for(let i=0; i <1000; i++){
+    if(i%3===0){
+        euler = euler + i
+    }
+    else if(i%5===0){
+        euler = euler + i
+    }
+}
+console.log(euler);
