@@ -229,9 +229,16 @@ Given the following array `const ourClass = ["Salty", "Zoom", "Sardine", "Slack"
 
 1. What would you write to access the 3rd element of the array?
 
+A: `ourClass[2]` 
+
 2. Change the value of "Github" to "Octocat"
 
+A: `ourClass[4]="Octocat"`
+
 3. Add a new element, "Cloud City" to the array.
+
+A: `ourClass.push("Cloud City")`
+
 
 :red_circle: Commit.
 
