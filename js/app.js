@@ -30,3 +30,19 @@ console.log(concantate);
   console.log(a < b < c);
   console.log((a === a) < d);
   console.log(48 == '48');
+
+////////////////////// D. THE FARM /////////////////////////
+
+var animal1 = "cow";
+
+function whatDoesTheCowSay(x){
+    if(x==="cow"){
+        console.log("Shazooooooooo")
+        //^Famlily Guy ref. watch it, its hilarious.
+    } else {
+        console.log("Hey! You're not a cow.")
+    }
+}
+
+
+
