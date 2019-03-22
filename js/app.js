@@ -259,7 +259,18 @@ thomsCloset[1][2]="Footie Pajamas";
 ////////////////////// IV. FUNCTIONS /////////////////////////
 
 ////////////////////// A. PRINT GREETING /////////////////////////
+/*
 
 function printGreeting(x){
 console.log(`Hello there, ${x}`)
 }
+
+*/
+////////////////////// B. PRINT COOL /////////////////////////
+
+function printCool(name){
+    console.log(`Hey, ${name}, I think you're pretty cool!`)
+}
+
+printCool("who ever is reading this")
+
