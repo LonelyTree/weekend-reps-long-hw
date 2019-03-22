@@ -161,12 +161,26 @@ randomThings[2]="World";
 console.log(randomThings);
 
 */
-////////////////////// C. ACCESSING ELEMENTS /////////////////////////
+////////////////////// D. CHANGE VALUES /////////////////////////
 // & ON README
+/*
 
 const ourClass = ["Salty", "Zoom", "Sardine", "Slack", "Github"];
 ourClass[2]
 ourClass[4]="Octocat"
 ourClass.push("Cloud City")
 console.log(ourClass)
+
+*/
+////////////////////// E. MIX IT UP /////////////////////////
+
+const myArray = [5, 10, 500, 20]
+myArray.push("Egon","String");
+console.log(myArray);
+myArray.shift();
+console.log(myArray);
+myArray.unshift("Bob Marley");
+console.log(myArray);
+myArray.pop();
+console.log(myArray.reverse())
 
