@@ -211,7 +211,7 @@ monkeyInTheMiddle(11)
 
 */
 ////////////////////// H. WHAT'S IN YOUR CLOSET? /////////////////////////
-
+/*
 const kristynsCloset = [
     'left shoe',
     'cowboy boots',
@@ -254,3 +254,12 @@ thomsCloset[1][0];
 thomsCloset[2][2];
 console.log(`Thom loves repeating himself especialy with this horrible exercise where I have to type "Kristyn"(worlds most annoying name to type) multiple times. But I gues Thom is wearing a ${thomsCloset[0][0]} with some ${thomsCloset[1][1]} and ${thomsCloset[2][2]}.`);
 thomsCloset[1][2]="Footie Pajamas";
+
+*/
+////////////////////// IV. FUNCTIONS /////////////////////////
+
+////////////////////// A. PRINT GREETING /////////////////////////
+
+function printGreeting(x){
+console.log(`Hello there, ${x}`)
+}
