@@ -189,9 +189,15 @@ Are you having dejà vu? This just in! From the "Read the entire problem before 
 
 1. What are the things in an array called?
 
+A: `Elements`
+
 2. Do Arrays guarantee those things will be in order?
 
+A: `No`
+
 3. What real-life thing could you model with an array?
+
+A: `Lists, Data Stores, Numbers, Scores Over Time`
 
 :red_circle: Commit.
 

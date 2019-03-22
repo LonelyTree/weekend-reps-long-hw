@@ -124,6 +124,7 @@ console.log("$"+bank_account)
 
 */
 ////////////////////// E. MULTIPLES OF 3 & 5 /////////////////////////
+/*
 
 let euler = 0;
 for(let i=0; i <1000; i++){
@@ -134,4 +135,10 @@ for(let i=0; i <1000; i++){
         euler = euler + i
     }
 }
-console.log(euler);
+console.log(euler)
+
+*/
+////////////////////// III. ARRAYS & CONTROL FLOW /////////////////////////
+
+////////////////////// A. TALK ABOUT IT /////////////////////////
+
