@@ -83,6 +83,7 @@ for(let i=12; i < 400; i += 3){
 }
 */
 ////////////////////// B. GET EVEN /////////////////////////
+/*
 
 for(let i = 1; i <= 100; i++){
     if(i%2===0){
@@ -90,3 +91,13 @@ for(let i = 1; i <= 100; i++){
     };
 }
 
+*/
+////////////////////// C.  GIVE ME FIVE /////////////////////////
+
+for(let i=0; i<= 100; i++){
+    if(i%5===0){
+        console.log("I found a " + i + ". High five!");
+    } else if(i%3===0){
+        console.log("I found a " + i +". Three is a crowd.")
+    }
+}
