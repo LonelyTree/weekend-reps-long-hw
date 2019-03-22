@@ -288,6 +288,7 @@ calculateCube(2)
 
 */
 ////////////////////// D. IS VOWEL /////////////////////////
+/*
 
 function isVowel(letter){
     let absletter = letter.toLowerCase()
@@ -299,3 +300,15 @@ function isVowel(letter){
     } return false
 }
 console.log(isVowel("E"));
+
+*/
+////////////////////// E. GET TWO LENGTHS /////////////////////////
+
+function getTwoLengths(x,y){
+    lengthArray = [];
+    lengthArray.push(x.length);
+    lengthArray.push(y.length);
+    console.log(lengthArray);
+}
+
+getTwoLengths("Jalapeno","Three")
