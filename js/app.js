@@ -303,6 +303,7 @@ console.log(isVowel("E"));
 
 */
 ////////////////////// E. GET TWO LENGTHS /////////////////////////
+/*
 
 function getTwoLengths(x,y){
     lengthArray = [];
@@ -312,3 +313,17 @@ function getTwoLengths(x,y){
 }
 
 getTwoLengths("Jalapeno","Three")
+
+*/
+////////////////////// D. GET MULTIPLE LENGTHS /////////////////////////
+
+function getMultipleLengths(x){
+    lengthArray = [];
+
+    let separate = x.replace(/[?!><."'"'@#$%^&*]/g, "").split(" ");
+    for(let i=0; i<separate.length; i++){
+    lengthArray.push(separate[i].length);
+    } console.log(lengthArray)
+}
+
+getMultipleLengths("How man word in har?")
