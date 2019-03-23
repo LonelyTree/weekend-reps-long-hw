@@ -331,6 +331,7 @@ getMultipleLengths("How man word in har?")
 
 */
 ////////////////////// G. MAX OF THREE /////////////////////////
+/* 
 
 function maxOfThree(x,y,z){
     if(x === y === z){
@@ -343,3 +344,32 @@ function maxOfThree(x,y,z){
 }
 
 console.log(maxOfThree(6,9,11))
+
+*/
+////////////////////// H. PRINT LONGEST WORD /////////////////////////
+
+function printLongestWord(string){
+    finder = string.split(" ")
+finder.sort(function(a,b){
+    return a.length - b.length;});
+    console.log(finder.pop());
+}
+//  |
+//  V  // Where my mind was going in the wrong place//
+
+    // let solver = [];
+    // finder = string.replace(/[?!><."'"'@#$%^&*]/g, " ").split(" ");
+    // for(let i = 0; i<finder.length; i++){
+    //     // for(let e = 0; e < finder[i].length; e++)
+
+    //     solver.push(finder[i].length);
+    //     solver.sort().toString()
+    // }
+
+
+    // finder2 = finder.length;
+    // finder3 = finder2.sort()
+    // finder4 = finder3.toString()
+    // console.log(finder4.pop())
+
+printLongestWord("Which is the loooooongest  wordddddd?")
