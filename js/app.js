@@ -480,6 +480,7 @@ getRandomElement("1 2 3 4 456 6 6788 876 5432 1")
 
 ////////////////////// A. MAKE USER OBJECT /////////////////////////
 
+
 let user = {
     name: "Valian",
     email: "101go@gmail.com",
@@ -519,3 +520,14 @@ user.friend.age= 55;
 
 user.friend.purchased.push("The One Ring","A latte")
 console.log(user.friend.purchased[1])
+
+
+////////////////////// F. LOOPS //////////////////////////////
+
+for(let i=0; i <user.purchased.length; i++){
+    console.log(user.purchased[i])
+}
+
+for(let i=0; i <user.friend.purchased.length; i++){
+    console.log(user.friend.purchased[i])
+}
