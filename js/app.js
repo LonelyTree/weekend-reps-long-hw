@@ -386,6 +386,7 @@ printLongestWord(['BoJack',
 
 */
 ////////////////////// I. TRANSMOGRIFY /////////////////////////
+/*
 
 function transmogrify(x,y,z){
     answer = Math.pow((x*y),z)
@@ -393,3 +394,33 @@ function transmogrify(x,y,z){
 }
 
 transmogrify(5,3,2)
+
+*/
+////////////////////// J. REVERSE WORD ORDER V2 /////////////////////////
+
+function reverseWordOrder(string){
+    var answer = [];
+    let finalAnswer=[]
+    let word = ""
+    for(let i=0; i <= string.length-1; i++){
+        if(string[i]===" "){
+        answer.push(word)
+        word = ""
+        } else{
+            word = word + string[i];
+        }
+        } 
+        if(word.length>0){
+        answer.push(word)
+        }
+        for(let i = answer.length-1; i >=0; i--){
+            finalAnswer.push(answer[i])
+        }
+        console.log(finalAnswer)
+    }
+//THANK YOU FOR THE HELP CLAYTON. I HAD TO MODIFY THE 
+//LAST LITTLE BIT SO IT COULD WORK. SOLID HOUR AND A HALF OF STARING AT CHARACTERS.
+//NOW IT LOOKS SO MATTER-OF-FACT....
+
+reverseWordOrder("Words can be reversed");
+console.log("Words can be reversed".length)
