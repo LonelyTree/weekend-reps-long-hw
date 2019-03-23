@@ -397,13 +397,14 @@ transmogrify(5,3,2)
 
 */
 ////////////////////// J. REVERSE WORD ORDER V2 /////////////////////////
+/*
 
 function reverseWordOrder(string){
     var answer = [];
     let finalAnswer=[]
     let word = ""
     for(let i=0; i <= string.length-1; i++){
-        if(string[i]===" "){
+        if(string[i]===" " || i == string.length){
         answer.push(word)
         word = ""
         } else{
@@ -424,3 +425,50 @@ function reverseWordOrder(string){
 
 reverseWordOrder("Words can be reversed");
 console.log("Words can be reversed".length)
+
+*/
+////////////////////// K. GET DOWN AND DIRTY WITH MATH RANDOM /////////////////////////
+// 1-10
+function rand1_10(){
+    console.log(Math.floor(Math.random() *10) +1);
+}
+rand1_10();
+// 10-100
+function rand10_100(){
+    console.log(Math.floor(Math.random() *100) +10);
+}
+rand10_100();
+// 532-13267
+function rand532_13267(){
+    console.log(Math.floor(Math.random() *13267) +532);
+}
+rand532_13267();
+// 1-10 FLOAT
+function rand1_10F(){
+    console.log((Math.random() *10) +1);
+}
+rand1_10F();
+// RANDOM ELEMENT
+function getRandomElement(string){
+    var answer = [];
+    let finalAnswer=[]
+    let word = ""
+    for(let i=0; i <= string.length-1; i++){
+        if(string[i]===" " || i === string.length){
+        answer.push(word)
+        word = ""
+        } else{
+            word = word + string[i];
+        }
+        } 
+        if(word.length>0){
+        answer.push(word)
+        }
+        for(let i = answer.length-1; i >=0; i--){
+            finalAnswer.push(answer[i])
+        }
+        console.log(finalAnswer[Math.floor(Math.random() * finalAnswer.length-1) +1])
+}
+
+
+getRandomElement("1 2 3 4 456 6 6788 876 5432 1")
