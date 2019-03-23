@@ -428,6 +428,8 @@ console.log("Words can be reversed".length)
 
 */
 ////////////////////// K. GET DOWN AND DIRTY WITH MATH RANDOM /////////////////////////
+/*
+
 // 1-10
 function rand1_10(){
     console.log(Math.floor(Math.random() *10) +1);
@@ -472,3 +474,16 @@ function getRandomElement(string){
 
 
 getRandomElement("1 2 3 4 456 6 6788 876 5432 1")
+
+*/
+////////////////////// V. OBJECTS /////////////////////////
+
+////////////////////// A. MAKE USER OBJECT /////////////////////////
+
+let user = {
+    name: "Valian",
+    email: "101go@gmail.com",
+    age: 18,
+    purchased: []
+}
+
