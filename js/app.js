@@ -493,3 +493,8 @@ user.email="102go@gmail.com";
 user.age++;
 
 console.log(user)
+
+////////////////////// C. ADDING KEYS AND VALUES /////////////////////////
+
+user.location="NOT the Valley";
+
