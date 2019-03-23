@@ -487,3 +487,9 @@ let user = {
     purchased: []
 }
 
+////////////////////// B. UPDATE THE USER /////////////////////////
+
+user.email="102go@gmail.com";
+user.age++;
+
+console.log(user)
