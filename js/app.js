@@ -347,9 +347,12 @@ console.log(maxOfThree(6,9,11))
 
 */
 ////////////////////// H. PRINT LONGEST WORD /////////////////////////
+/*
 
-function printLongestWord(string){
-    finder = string.split(" ")
+function printLongestWord(finder){
+    //finder = string.replace(/[?!><."'"',@#$%^&*]/g, "").split(" ")
+    // ^ For non-array strings.
+
 finder.sort(function(a,b){
     return a.length - b.length;});
     console.log(finder.pop());
@@ -372,4 +375,21 @@ finder.sort(function(a,b){
     // finder4 = finder3.toString()
     // console.log(finder4.pop())
 
-printLongestWord("Which is the loooooongest  wordddddd?")
+printLongestWord(['BoJack',
+'Princess',
+'Diane',
+'a',
+'Max',
+'Peanutbutter',
+'big',
+'Todd'])
+
+*/
+////////////////////// I. TRANSMOGRIFY /////////////////////////
+
+function transmogrify(x,y,z){
+    answer = Math.pow((x*y),z)
+    console.log(answer);
+}
+
+transmogrify(5,3,2)
