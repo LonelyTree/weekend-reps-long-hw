@@ -496,10 +496,26 @@ console.log(user)
 
 ////////////////////// C. ADDING KEYS AND VALUES /////////////////////////
 
-user.location="NOT the Valley";
+user.location="NOT The Valley";
 
 ////////////////////// D. SHOPAHOLIC! //////////////////////////////
 
 user.purchased.push("carbohydrates","peace of mind","Merino jodhpurs",)
 
 console.log(user.purchased[2])
+
+////////////////////// E. OBJECT-WITHIN-OBJECT //////////////////////////////
+
+user.friend = {
+    name:"Gary",
+    age: 17,
+    location: "In The Valley",
+    purchased: []
+}
+
+console.log(user.friend.name);
+console.log(user.friend.location);
+user.friend.age= 55;
+
+user.friend.purchased.push("The One Ring","A latte")
+console.log(user.friend.purchased[1])
