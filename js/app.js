@@ -479,7 +479,7 @@ getRandomElement("1 2 3 4 456 6 6788 876 5432 1")
 ////////////////////// V. OBJECTS /////////////////////////
 
 ////////////////////// A. MAKE USER OBJECT /////////////////////////
-
+/*
 
 let user = {
     name: "Valian",
@@ -547,3 +547,14 @@ function oldAndLoud(person){
 }
 oldAndLoud(user);
 console.log(user);
+
+////////////////////////// HUNGRY FOR MORE? ////////////////////////////////
+
+
+THIS WAS ALREADY COVERED IN FRIDAY'S OBJECTS-LAB
+SO I WON'T DO IT HERE. I WILL GO AND DO CODEWARS.
+
+
+
+
+*/
